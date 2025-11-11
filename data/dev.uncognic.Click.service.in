@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=dev.uncognic.Click
+Exec=@bindir@/click --gapplication-service

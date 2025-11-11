@@ -1,0 +1,8 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/dev.uncognic.Click.desktop.in
+data/dev.uncognic.Click.metainfo.xml.in
+data/dev.uncognic.Click.gschema.xml
+src/main.c
+src/click-window.c
+src/click-window.ui

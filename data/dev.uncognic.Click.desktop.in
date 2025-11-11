@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=click
+Exec=click
+Icon=dev.uncognic.Click
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=GTK;
+StartupNotify=true
+DBusActivatable=true
