@@ -21,11 +21,34 @@
           </object>
         </child>
         <property name="content">
-          <object class="GtkLabel" id="label">
-            <property name="label" translatable="yes">Hello, World!</property>
-            <style>
-              <class name="title-1"/>
-            </style>
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="spacing">20</property>
+
+            <!-- Label -->
+            <child>
+              <object class="GtkLabel" id="label">
+                <property name="label" translatable="yes">Hello, World!</property>
+                <style>
+                  <class name="title-1"/>
+                </style>
+              </object>
+            </child>
+
+            <!-- Accent Button -->
+            <child>
+              <object class="GtkToggleButton" id="button">
+                <property name="label" translatable="yes">Click Me!</property>
+                <property name="width-request">150</property>
+                <property name="height-request">80</property>
+                <style>
+                  <class name="suggested-action"/> <!-- This gives it the accent color -->
+                </style>
+              </object>
+            </child>
+
           </object>
         </property>
       </object>
@@ -48,3 +71,4 @@
     </section>
   </menu>
 </interface>
+

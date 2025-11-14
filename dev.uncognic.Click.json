@@ -30,7 +30,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "file:///home/user/Projects"
+                    "url" : "file:///home/user/Documents"
                 }
             ]
         }
